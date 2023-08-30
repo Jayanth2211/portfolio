@@ -2,10 +2,14 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
 
 .n-name{
     font-size: 1.3rem;
@@ -15,7 +19,7 @@
 
 .n-right{
     display: flex;
-    /* flex: 1; */
+    flex: 1;
     align-items: center;
     justify-content: center;
     font-weight: 400;
