@@ -3,7 +3,7 @@ import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../card/card'
-import Resume from './JYNResumesFile.pdf'
+import Resume from './JayanthYN-Resume2024.pdf'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import {motion, spring} from 'framer-motion' 
@@ -23,11 +23,9 @@ const transition = {duration : 1, type: 'spring'}
        <span style={{color: darkMode? 'white': ''}}>My Awesome</span>
        <span>Services</span>
        <span>
-       I provide services encompassing ReactJS, JavaScript, HTML, and CSS<br/>
-       Additionally, I possess foundational expertisein Node.js, Express.js, and<br/>
-        MongoDB, enabling me to build comprehensive web applicationsthat <br/>
-       seamlessly integrate frontend and backend components
-       
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <br />
+        Reprehenderit quae enim commodi corrupti? Temporibus veritati
        </span>
        <a href={Resume} download>
        <button className='button s-button'>Download CV</button>
@@ -36,15 +34,20 @@ const transition = {duration : 1, type: 'spring'}
        </div>
 
        {/* right side */}
-       <div className="cards"  >
+       <div className="cards">
         
-        <div className="emojicard" style={{left:'14rem'} }>
+        <motion.div 
+        whileInView={{left: '14rem'}}
+        initial={{left: '25rem'}}
+        transition={transition}
+
+        style={{left:'14rem'}}>
             <Card
            emoji = {HeartEmoji}
            heading = {'Developer'}
            detail = {'React Js, JavaScript, Html, Css, Node Js, Express Js, MongoDB'}
-          />
-        </div>
+            />
+        </motion.div>
        <div className="blur s-blur2" style={{background:"var(--purple)"}}></div>
 
        </div>

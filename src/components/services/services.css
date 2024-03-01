@@ -9,7 +9,7 @@
 .awesome{
     display: flex;
     flex-direction: column;
-    
+    position: relative;
 }
 
 .awesome>:nth-child(1){
@@ -28,7 +28,6 @@
     color: var(--gray);
     font-size: 14px;
     margin-top: 1rem;
-    
 }
 
 .s-button{
@@ -38,36 +37,24 @@
 }
 .cards{
     position: relative;
-    
 }
-.emojicard>:nth-child(1){
-  
-    width: 250px;
-    height: 300px;
-}
-.emojicard>:nth-child(1)>:nth-child(1){
-    
-    width: 70px;
-}
+
 
 .cards>*{
     position: absolute;
-    
 }
 /*blur*/
 .s-blur2{
     left: 14rem;
     top: 8rem;
-    
 }
 
 .s-blur1{
     top: 13rem;
     left: -18rem;
-    
 }
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
  .services{
     margin-top: 0;
     flex-direction: column;
@@ -84,4 +71,4 @@
     position: static;
  }
 
-} */
+}
