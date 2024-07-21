@@ -62,7 +62,6 @@
     .portfolio-slider .swiper-slide {
         width: calc(100% - 10px); /* Full width minus margin */
     }
-
     .portfolio img {
         width: 100%; /* Full width of the container */
         height: auto; /* Maintain aspect ratio */
