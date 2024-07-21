@@ -27,17 +27,17 @@ const Portfolio = () => {
             className='portfolio-slider'
             >
                <SwiperSlide>
-                <a href="https://disneyhotstar-clone-frontend.onrender.com/" target='_blank'><img src={Sidebar} alt="" height={200} width={500}/></a>
+                <a href="https://disneyhotstar-clone-frontend.onrender.com/" target='_blank'><img src={Sidebar} alt="" /></a>
                 
                </SwiperSlide>
 
                <SwiperSlide>
-                <a href="https://meshoproject.onrender.com/" target='_blank'><img src={Ecommerce} alt="" height={200} width={500} /></a>
+                <a href="https://meshoproject.onrender.com/" target='_blank'><img src={Ecommerce} alt="" /></a>
                 
                </SwiperSlide>
 
                <SwiperSlide>
-                <a href="https://foodblog-frontend.onrender.com/" target='_blank'><img src="https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg?size=626&ext=jpg&ga=GA1.2.12140546.1689867406&semt=sph" alt="" height={200} width={500} /></a>
+                <a href="https://foodblog-frontend.onrender.com/" target='_blank'><img src="https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg?size=626&ext=jpg&ga=GA1.2.12140546.1689867406&semt=sph" alt=""  /></a>
                 
                </SwiperSlide>
 
