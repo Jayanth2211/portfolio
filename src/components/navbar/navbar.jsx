@@ -1,15 +1,13 @@
 import React from 'react'
 import "./navbar.css"
-import Toggle from '../toggle/toggle'
+
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
   return (
     <div className="n-wrapper">
         <div className="n-left">
-            <div className="n-name">Jayanth</div>
-            <Toggle/>
-            
+            <div className="n-name">Jayanth.</div>  
         </div>
         <div className="n-right">
             <div className="n-list">
