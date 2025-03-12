@@ -37,9 +37,7 @@ const transition = {duration : 1, type: 'spring'}
        <div className="cards">
         
         <motion.div 
-        whileInView={{left: '14rem'}}
-        initial={{left: '25rem'}}
-        transition={transition}
+        
 
         style={{left:'14rem'}}>
             <Card

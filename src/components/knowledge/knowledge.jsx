@@ -6,7 +6,7 @@ import nodejs from '../../img/nodejs.png'
 import reacticon1 from '../../img/reacticon1.gif'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
-import {motion, spring} from 'framer-motion' 
+
 
 
 
