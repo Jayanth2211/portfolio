@@ -64,7 +64,6 @@ const Intro = () => {
 
              <motion.div
                
-               
              style={{top:'18rem', left:'0rem'}}
              className="floating-div"
              >
