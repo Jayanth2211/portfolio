@@ -14,10 +14,6 @@ import { useContext } from "react";
 import {motion} from 'framer-motion' 
 
 
-
-
-
-
 const Intro = () => {
 
   const transition = {duration : 2, type: 'spring'}
