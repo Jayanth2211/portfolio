@@ -11,66 +11,66 @@ import glassesimoji from '../../img/glassesimoji.png'
 import FloatingDiv from "../floatingDiv/floatingDiv"
 import { themeContext } from "../../Context";
 import { useContext } from "react";
-import {motion} from 'framer-motion' 
+import { motion } from 'framer-motion'
 
 
 const Intro = () => {
 
-  const transition = {duration : 2, type: 'spring'}
+  const transition = { duration: 2, type: 'spring' }
 
-    const theme = useContext(themeContext)
+  const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
-    return ( 
-        <div className="intro">
+  return (
+    <div className="intro">
 
-            <div className="i-left">
-            <div className="i-name">
-                <span style={{color: darkMode? 'white': ''}}>Hy! I Am </span>
-                <span>Jayanth Y N</span>
-                <span>Frontend Developer with good
-                 knowledge in web designing and development,
-                 producting the Quality work</span>
-            </div>
-<a href="https://wa.me/919740839515" target="_blank"> <button className="button i-button"> Hire me</button></a>
-       
-            <div className="i-icons">
-              <a href="https://github.com/Jayanth2211?tab=repositories" target="_blank"><img src={Github} alt="" /></a>
-              <a href="https://www.linkedin.com/in/jayanth-y-n-050a20277/" target="_blank"><img src={LinkedIn} alt="" /></a>
-              <a href="https://www.instagram.com/jayanth_yn/" target="_blank"><img src={Instagram} alt="" /></a>
-                
-                
-                
-            </div>
+      <div className="i-left">
+        <div className="i-name">
+          <span style={{ color: darkMode ? 'white' : '' }}>Hy! I Am </span>
+          <span>Jayanth Y N</span>
+          <span>Frontend Developer with good
+            knowledge in web designing and development,
+            producting the Quality work</span>
+        </div>
+        <a href="https://wa.me/919740839515" target="_blank"> <button className="button i-button"> Hire me</button></a>
 
-            </div>
+        <div className="i-icons">
+          <a href="https://github.com/Jayanth2211?tab=repositories" target="_blank"><img src={Github} alt="" /></a>
+          <a href="https://www.linkedin.com/in/jayanth-y-n-050a20277/" target="_blank"><img src={LinkedIn} alt="" /></a>
+          <a href="https://www.instagram.com/jayanth_yn/" target="_blank"><img src={Instagram} alt="" /></a>
 
-            <div className="i-right">
-             
-             <img id="boy" src={boy} alt="" width={100} />
-             <motion.img
-            
-             src={glassesimoji} alt="" />
 
-             <motion.div
-             
 
-             style={{top: '-4%', left:'68%'}}
-             className="floating-div"
+        </div>
 
-             >
-                <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
-             </motion.div>
+      </div>
 
-             <motion.div
-               
-             style={{top:'18rem', left:'0rem'}}
-             className="floating-div"
-             >
-                <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award'/>
-             </motion.div>
-           {/* blur divs */}
+      <div className="i-right">
 
-           {/* <div className="blur" style={{background:"rgb(238 210 255)"}}></div>
+        <img id="boy" src={boy} alt="" width={100} />
+        <motion.img
+
+          src={glassesimoji} alt="" />
+
+        <motion.div
+
+
+          style={{ top: '-4%', left: '68%' }}
+          className="floating-div"
+
+        >
+          <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />
+        </motion.div>
+
+        <motion.div
+
+          style={{ top: '18rem', left: '0rem' }}
+          className="floating-div"
+        >
+          <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award' />
+        </motion.div>
+        {/* blur divs */}
+
+        {/* <div className="blur" style={{background:"rgb(238 210 255)"}}></div>
            <div className="blur"
             style={{
             background: '#C1F5FF',
@@ -83,9 +83,9 @@ const Intro = () => {
         
          </div> */}
 
-            </div>
-        </div>
-     );
+      </div>
+    </div>
+  );
 }
- 
+
 export default Intro;
