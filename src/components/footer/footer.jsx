@@ -17,8 +17,6 @@ const Footer = () => {
                 <Github color='white' size='3rem'/></a>
                 <a href="https://www.linkedin.com/in/jayanth-y-n-050a20277/"  target='_blank'> <ion-icon name="logo-linkedin" id='linkedIn' ></ion-icon></a>
                
-
-
                </div>
           </div>
         </div>
