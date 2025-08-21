@@ -3,7 +3,7 @@ import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../card/card'
-import Resume1 from './JayanthYN-Resume2024.pdf'
+import Resume1 from './Jayanth Resume SDE W-1.pdf'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import {motion, spring} from 'framer-motion' 

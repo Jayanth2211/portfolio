@@ -5,6 +5,7 @@
     margin-top: 4rem;
 }
 
+
 .c-right{
     display: flex;
     justify-content: center;
@@ -16,7 +17,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    align-items: center;
+    align-items: left;
 }
 
 .c-right .user{
@@ -36,4 +37,27 @@ textarea{
 .c-blurl{
     top: 1rem;
     left: 8rem;
+}
+.c-right div small{
+    position: relative;
+    top: -10%;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+            height: 80vh;
+            margin-top: 4rem;
+            padding: 0 0rem 0 0rem;
+        
+            
+    }
+    .c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    transform: scale(80%);
+    align-items: left;
+}
 }

@@ -34,6 +34,7 @@ well-structured code and optimal user experiences.
 
        { /* right side  */}
        <div className="k-right">
+        <div className="circle-center">
         <div 
         className="k-mainCircle">
             <div className="k-secCircle css">
@@ -51,6 +52,7 @@ well-structured code and optimal user experiences.
             <div className="k-secCircle js">
              <img src={js} alt="" />
             </div>
+        </div>
         </div>
 
         {/* background circle */}

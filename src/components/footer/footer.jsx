@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer" id='Footer'>
           <img src={Wave} alt="" style={{width:'100%'}}/>
           <div className="f-content">
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target='_blank'><span>jayanthgama2001@gmail.com</span></a>
+            <a href="mailto:jayanth22yn@gmail.com" target='_blank'><span>jayanth22yn@gmail.com</span></a>
                <div className="f-icons">
                <a href="https://www.instagram.com/jayanth_yn/" target='_blank'><Insta color='white' size='3rem'/></a>
                 <a href="https://github.com/Jayanth2211?tab=repositories" target='_blank'>
