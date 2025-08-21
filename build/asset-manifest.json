@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.86701671.css",
-    "main.js": "/static/js/main.e26ba01d.js",
+    "main.js": "/static/js/main.742c857d.js",
     "static/js/787.10a71ca6.chunk.js": "/static/js/787.10a71ca6.chunk.js",
     "static/media/JYN LOGO1.png": "/static/media/JYN LOGO1.e86ebdb98a78b2ee60ff.png",
     "static/media/Jayanth Resume SDE W-1.pdf": "/static/media/Jayanth Resume SDE W-1.82dbd13b45ed20fbc172.pdf",
@@ -26,11 +26,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.86701671.css.map": "/static/css/main.86701671.css.map",
-    "main.e26ba01d.js.map": "/static/js/main.e26ba01d.js.map",
+    "main.742c857d.js.map": "/static/js/main.742c857d.js.map",
     "787.10a71ca6.chunk.js.map": "/static/js/787.10a71ca6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86701671.css",
-    "static/js/main.e26ba01d.js"
+    "static/js/main.742c857d.js"
   ]
 }
