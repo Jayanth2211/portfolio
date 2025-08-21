@@ -11,17 +11,17 @@ import { useContext } from 'react'
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const them=useContext(themeContext)
-  const darkMode=them.state.darkMode
+  const them = useContext(themeContext)
+  const darkMode = them.state.darkMode
 
 
 
   return (
-    <div className="n-wrapper" style={{backgroundColor:darkMode? 'black':'white'}}>
+    <div className="n-wrapper" style={{ backgroundColor: darkMode ? 'black' : 'white' }}>
       <div className="n-left">
-        <div className="n-logo1" style={{display:darkMode? "none":"inline"}}><img src={logo1} alt="" width={100}/></div>
-        <div className="n-logo2" style={{display:darkMode? "inline":"none"}}><img src={logo2} alt="" width={100}/></div>
-        <Toggle/>
+        <div className="n-logo1" style={{ display: darkMode ? "none" : "inline" }}><img src={logo1} alt="" width={100} /></div>
+        <div className="n-logo2" style={{ display: darkMode ? "inline" : "none" }}><img src={logo2} alt="" width={100} /></div>
+        <Toggle />
       </div>
 
       {/* Hamburger (visible only on mobile) */}
@@ -29,13 +29,13 @@ const Navbar = () => {
         ☰
       </div>
 
-      <div className={`n-right ${menuOpen ? "open" : ""}`}  style={{backgroundColor:darkMode? 'black':'white'}}>
+      <div className={`n-right ${menuOpen ? "open" : ""}`} style={{ backgroundColor: darkMode ? 'black' : 'white' }}>
         <div className="n-list">
-          <ul style={{listStyleType: 'none'}}>
-            <Link spy={true} to='Navbar' smooth={true} onClick={()=>setMenuOpen(!menuOpen)}><li>Home</li></Link>
-            <Link spy={true} to='Project' smooth={true} onClick={()=>setMenuOpen(!menuOpen)}><li>Skills</li></Link>
-            <Link spy={true} to='Services' smooth={true} onClick={()=>setMenuOpen(!menuOpen)}><li>Services</li></Link>
-            <Link spy={true} to='Portfolio' smooth={true} onClick={()=>setMenuOpen(!menuOpen)}><li>Portfolio</li></Link>
+          <ul style={{ listStyleType: 'none' }}>
+            <Link spy={true} to='Navbar' smooth={true} onClick={() => setMenuOpen(!menuOpen)}><li>Home</li></Link>
+            <Link spy={true} to='Project' smooth={true} onClick={() => setMenuOpen(!menuOpen)}><li>Skills</li></Link>
+            <Link spy={true} to='Services' smooth={true} onClick={() => setMenuOpen(!menuOpen)}><li>Services</li></Link>
+            <Link spy={true} to='Portfolio' smooth={true} onClick={() => setMenuOpen(!menuOpen)}><li>Portfolio</li></Link>
           </ul>
         </div>
         <Link spy={true} to='Footer' smooth={true}>
